@@ -25,7 +25,7 @@ setup(
     ],
     packages=["betsi"],
     include_package_data=True,
-    install_requires=["pyqt", "matplotlib", "scipy", "numpy", "pathlib", "pandas", "seaborn", "statsmodels"],
+    install_requires=["pyqt5", "matplotlib", "scipy", "numpy", "pathlib", "pandas", "seaborn", "statsmodels"],
     entry_points={
         "console_scripts": [
             "betsi=betsi.gui:runbetsi",
